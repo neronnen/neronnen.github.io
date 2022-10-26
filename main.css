@@ -220,7 +220,7 @@ a {
   top: 554px;
 }
 .loginBtn {
-  display: inline-block;
+ display: inline-block;
   height: 50px;
   width: 347px;
   left: 0px;
@@ -229,6 +229,21 @@ a {
   background: #04c35c;
   border: none;
   cursor: pointer;
+  position: absolute;
+  left: 39.48%;
+  right: 39.19%;
+  top: 30%;
+  bottom: 32%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  white-space: nowrap;
 }
 
 .insideText {
