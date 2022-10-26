@@ -246,25 +246,7 @@ a {
   white-space: nowrap;
 }
 
-.insideText {
-  position: absolute;
-  left: 39.48%;
-  right: 39.19%;
-  top: 30%;
-  bottom: 32%;
 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #ffffff;
-
-  white-space: nowrap;
-
-  cursor: pointer;
-}
 
 .googlle {
   position: absolute;
