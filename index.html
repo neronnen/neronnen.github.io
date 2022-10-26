@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Inter:wght@400;500;600;700;800&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="box">
+      <img class="image" src="/img/image 1.png" alt="" />
+
+      <h2 class="head">Login to your account</h2>
+
+      <form class="formValidation" action="#">
+        <h4 class="mail">Email</h4>
+
+        <div class="inputBox">
+          <input
+            type="email"
+            class="field js-input-email"
+            name = "email"
+            minlength="6"
+            required
+          />
+          <span class="login"></span>
+        </div>
+
+        <h4 class="password">Password</h4>
+
+        <div class="inputBoxx">
+          <input type="password" class="field js-input-sign" name = "password" required />
+          <span class="sign"></span>
+          <span class="error" aria-live="polite"></span>
+        </div>
+
+        <label class="label">
+        <input type="checkbox" class="round" name = "rememberMe"  />
+         <span class="fake"></span>
+         <span class="remember">Remember me</span>
+        </label>
+
+        <h4 class="help">Forgot password?</h4>
+      </form>
+
+      <form class="container">
+        <input type="submit" class="loginBtn" value="">
+          <h4 class="insideText">Login Now</h4>
+        </input>
+      </form>
+
+      <div class="googlle">
+        <img
+          class="googlesrc"
+          src="/img/iconfinder_Google_1298745 1.png"
+          alt=""
+        />
+        <h3 class="googlleWord">Or sign-in with google</h3>
+      </div>
+    </div>
+
+  <div class="modal">
+    <div class="modalCard">
+      <div class="modalInner">
+      </div>
+      <span class="modalText">Поздравляем с успешной авторизацией!</span>
+      <button class="closeModalWindow"  >Закрыть</button>
+    </div>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>
