@@ -1,0 +1,726 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  position: absolute;
+  width: 292px;
+  height: 35px;
+  left: 913px;
+  top: 253px;
+
+  display: flex;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #1a202c;
+}
+
+.box {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+
+  background: #ffffff;
+}
+.image {
+  position: absolute;
+  width: 720px;
+  height: 899.82px;
+}
+.formValidation {
+  position: absolute;
+  width: 350px;
+  height: 215px;
+  left: 913px;
+  top: 312px;
+  display: flex;
+}
+.mail {
+  position: absolute;
+  left: 0%;
+  right: 79.71%;
+  top: 0%;
+  bottom: 91.16%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #4a5568;
+}
+
+.inputBox {
+  box-sizing: border-box;
+  height: 50px;
+  width: 350px;
+  left: 0px;
+  top: 30px;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 13.95%;
+  bottom: 62.79%;
+
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+.inputBox input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.login {
+  position: absolute;
+  margin-top: 17px;
+
+  left: 5.75%;
+  right: 52.59%;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #4a5568;
+  color: #2d3748;
+}
+.password {
+  position: absolute;
+  left: 0%;
+  right: 88.57%;
+  top: 42.33%;
+  bottom: 48.84%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #4a5568;
+}
+.inputBoxx {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 56.28%;
+  bottom: 20.47%;
+
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+.inputBoxx input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sign {
+  position: absolute;
+  left: 5.75%;
+  right: 78.57%;
+  top: 41.67%;
+  bottom: 29.19%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+.label {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  height: 15px;
+  width: 15px;
+  left: 0px;
+  top: 199px;
+
+  left: 0%;
+  right: 95.71%;
+  top: 92.56%;
+  bottom: 0.47%;
+
+  background: #f7fafc;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  opacity: 1;
+}
+.round {
+  opacity: 0;
+}
+.round:checked {
+  opacity: 1;
+}
+
+.remember {
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  margin-left: 11px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2d3748;
+  white-space: nowrap;
+  z-index: 10;
+}
+.help {
+  position: absolute;
+  left: 67.71%;
+  right: 0.29%;
+  top: 92.56%;
+  bottom: 0%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #2c5282;
+  white-space: nowrap;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+
+  left: 915px;
+  top: 554px;
+}
+.loginBtn {
+  display: inline-block;
+  height: 50px;
+  width: 347px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  background: #04c35c;
+  border: none;
+  cursor: pointer;
+}
+
+.insideText {
+  position: absolute;
+  left: 39.48%;
+  right: 39.19%;
+  top: 30%;
+  bottom: 32%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+}
+
+.googlle {
+  position: absolute;
+  width: 347px;
+  height: 50px;
+  left: 915px;
+  top: 619px;
+
+  background: #2d3748;
+  border-radius: 5px;
+}
+
+.googlleWord {
+  position: absolute;
+  left: 31.7%;
+  right: 22.48%;
+  top: 30%;
+  bottom: 32%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.googlesrc {
+  position: absolute;
+  left: 22.77%;
+  right: 71.47%;
+  top: 30%;
+  bottom: 30%;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: width 2s;
+}
+.modal--show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalCard {
+  background-color: #ffffff;
+  max-width: 600px;
+  padding: 16px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-color: #1a191f;
+  color: #ffffff;
+}
+.closeModalWindow {
+  color: #030000;
+  font-family: "Roboto";
+
+  font-size: 17px;
+  display: block;
+  margin: 0 auto;
+
+  margin-top: 10px;
+}
+
+.modalText {
+  font-family: "Roboto";
+
+  font-size: 17px;
+}
+
+.modelInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1270px) {
+  /* .box {
+    width: 100%;
+  } */
+  .image {
+    max-width: 50%;
+  }
+  .head {
+    max-width: 50%;
+    left: 63%;
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 63%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 63%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 63%;
+    transition: left 0.5s linear;
+  }
+}
+@media (max-width: 1024px) {
+  .image {
+    max-width: 50%;
+  }
+  .head {
+    max-width: 50%;
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+}
+@media (max-width: 944px) {
+  .image {
+    max-width: 50%;
+  }
+  .head {
+    max-width: 50%;
+    left: 594px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    transition: 0.5s linear;
+  }
+  .formValidation {
+    left: 594px;
+    width: 215px;
+    height: 215px;
+    transition: left 0.5s linear;
+  }
+  .mail {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    transition: 0.5s linear;
+  }
+  .inputBox {
+    height: 35px;
+    width: 216px;
+    transition: 0.5s linear;
+  }
+  .password {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    transition: 0.5s linear;
+  }
+  .inputBoxx {
+    height: 35px;
+    width: 216px;
+    transition: 0.5s linear;
+  }
+  .remember {
+    font-size: 12px;
+    line-height: 14px;
+    color: #2d3748;
+    white-space: nowrap;
+    transition: 0.5s;
+  }
+  .label {
+    left: 0%;
+    right: 95.71%;
+    top: 92.5%;
+    bottom: 0.47%;
+  }
+  .remember {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    left: 0%;
+    right: 95.71%;
+    top: 93.9%;
+    bottom: 0.47%;
+    color: #2c5282;
+    white-space: nowrap;
+    transition: 0.5s linear;
+  }
+  .help {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    left: 62.9%;
+    right: 0.29%;
+    top: 92.56%;
+    bottom: 0%;
+    color: #2c5282;
+    white-space: nowrap;
+    transition: 0.5s linear;
+  }
+  .container {
+    left: 594px;
+    transition: left 0.5s linear;
+  }
+  .loginBtn {
+    height: 50px;
+    width: 215px;
+    transition: left 0.5s;
+  }
+  .insideText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 594px;
+    width: 215px;
+    transition: left 0.5s linear;
+  }
+  .googlleWord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: left 0.5s linear;
+  }
+  .googlesrc {
+    left: 17.77%;
+  }
+}
+@media (max-width: 884px) {
+  .image {
+    max-width: 50%;
+  }
+  .head {
+    max-width: 50%;
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+}
+
+@media (max-width: 844px) {
+  .image {
+    max-width: 50%;
+  }
+  .head {
+    max-width: 50%;
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 60%;
+    transition: left 0.5s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 50%;
+  }
+  .head {
+    max-width: 50%;
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 59%;
+    transition: left 0.5s linear;
+  }
+}
+@media (max-width: 720px) {
+  .box {
+    position: relative;
+  }
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .head {
+    max-width: 50%;
+    left: 33%;
+
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 33%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 33%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 21%;
+    transition: left 0.5s linear;
+  }
+}
+@media (max-width: 425px) {
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .head {
+    max-width: 50%;
+    left: 24.51%;
+
+    transition: left 0.5s linear;
+  }
+  .formValidation {
+    left: 24.51%;
+    transition: left 0.5s linear;
+  }
+  .container {
+    left: 24.51%;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 24.51%;
+    transition: left 0.5s linear;
+  }
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .head {
+    max-width: 50%;
+    left: 20.51%;
+    color: #2733db;
+    transition: left 0.5s linear;
+    white-space: nowrap;
+  }
+
+  .formValidation {
+    left: 25.51%;
+    width: 160px;
+    transition: left 0.5s linear;
+  }
+  .mail {
+    color: #2733db;
+  }
+  .inputBox {
+    height: 30px;
+    width: 150px;
+  }
+  .password {
+    color: #555fe7;
+  }
+  .inputBoxx {
+    height: 30px;
+    width: 150px;
+  }
+  .label {
+    left: 9%;
+  }
+  .remember {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    left: 0%;
+    right: 95.71%;
+    top: 93.9%;
+    bottom: 0.47%;
+    color: #659fe6;
+    white-space: nowrap;
+    transition: 0.5s linear;
+  }
+  .help {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    left: 18%;
+    right: 55.71%;
+    top: 76.5%;
+    bottom: 0.47%;
+    color: #659fe6;
+    white-space: nowrap;
+    transition: 0.5s linear;
+  }
+
+  .container {
+    left: 25.51%;
+    transition: left 0.5s linear;
+  }
+  .loginBtn {
+    height: 50px;
+    width: 160px;
+    transition: left 0.5s;
+  }
+  .insideText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    transition: left 0.5s linear;
+  }
+  .googlle {
+    left: 25.51%;
+    width: 160px;
+    transition: left 0.5s linear;
+  }
+  .googlleWord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: left 0.5s linear;
+  }
+  .googlesrc {
+    left: 17.77%;
+  }
+}
