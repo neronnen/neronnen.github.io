@@ -17,20 +17,17 @@ tasklist.addEventListener("click", deleteTask);
 tasklist.addEventListener("click", doneTask);
 
 function addTask(event) {
-  //   отмена отправки формы
   event.preventDefault();
-
-  //  достаём текст задачи из поля ввода
   const taskText = taskInput.value;
 
-  // задача в виде объекта
+  
   const newTask = {
     id: Date.now(),
     text: taskText,
     done: false,
   };
 
-  // добавляем задачу в массив
+ 
   tasks.push(newTask);
 
   saveToLocalStorage();
@@ -44,19 +41,19 @@ function addTask(event) {
 }
 
 function deleteTask(event) {
-  //  проверка что клик был по кнопке удаления задачи
+ 
   if (event.target.dataset.action === "remove") {
     const pareNode = event.target.closest(".list-group-item");
 
-    // определение айди задачи
+   
     const id = Number(pareNode.id);
 
-    // находим индекс задачи в массиве
+   
     const index = tasks.findIndex(function (task) {
       return task.id === id;
     });
 
-    // удаляем задачу из массива с задачами
+   
     tasks.splice(index, 1);
 
     saveToLocalStorage();
@@ -114,7 +111,7 @@ function saveToLocalStorage() {
 function renderTask(task) {
   const cssClass = task.done ? "task-title task-title--done" : "task-title";
 
-  //   формирование разметки для новрй задачи
+  
   const taskHtml = `
   <li id= "${task.id}"class="list-group-item d-flex justify-content-between task-item">
             <span class="${cssClass}">${task.text}</span>
@@ -138,6 +135,6 @@ function renderTask(task) {
             </div>
           </li>
   `;
-  //  добавляем задачу на страницу
+ 
   tasklist.insertAdjacentHTML("beforeend", taskHtml);
 }
