@@ -1,0 +1,36 @@
+Задание 1 
+
+const findUniqNumber = (arr) => {
+  arr.sort((a, b) => a - b);
+  return arr[0] == arr[1] ? arr.pop() : arr[0];
+};
+console.log(findUniqNumber([3, 10, 3, 3, 3]));
+
+
+Задание 2 
+
+const findUniqArray = (arr) => {
+  let uniqArr = [];
+  for (let i of arr) {
+    if (!uniqArr.includes(i)) {
+      uniqArr.push(i);
+    }
+  }
+  return uniqArr;
+};
+
+
+Задание 3 
+
+const objA = { a: 10, b: 20, c: 30 };
+const objB = { a: 3, c: 6, d: 3 };
+const objC = { a: 5, d: 11, e: 8 };
+const objD = { c: 3 };
+
+const combineObjects = (...params) =>
+  params.reduce((a, b) => {
+    for (const x in b) {
+      a[x] = x in a ? a[x] + b[x] : b[x];
+    }
+    return a;
+  }, {});
