@@ -1,4 +1,4 @@
-Задание 1 
+Задача 1 
 
 const findUniqNumber = (arr) => {
   arr.sort((a, b) => a - b);
@@ -7,7 +7,7 @@ const findUniqNumber = (arr) => {
 console.log(findUniqNumber([3, 10, 3, 3, 3]));
 
 
-Задание 2 
+Задача 2 
 
 const findUniqArray = (arr) => {
   let uniqArr = [];
@@ -20,7 +20,7 @@ const findUniqArray = (arr) => {
 };
 
 
-Задание 3 
+Задача 3 
 
 const objA = { a: 10, b: 20, c: 30 };
 const objB = { a: 3, c: 6, d: 3 };
